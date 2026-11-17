@@ -1,0 +1,8 @@
+fecha: 2026-11-17T18:04:09
+equipo: amonlop | Linux-7.0.0-42-generic-x86_64-with-glibc2.39 | x86_64 | cpu_count=6
+python: 3.12.3
+gurobi: 14.0.0
+cplex: 22.2.0.0
+threads=1 (0 = automático) | time_limit=600.0s | reps_lp=5
+parámetros: por defecto en ambos solvers salvo Threads y TimeLimit
+CPLEX: clocktype=2 (tiempo de pared), igual que el TimeLimit de Gurobi

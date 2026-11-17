@@ -124,6 +124,7 @@ def resolver_cplex(
             m.parameters.timelimit = time_limit
         if threads is not None:
             m.parameters.threads = threads
+            m.parameters.clocktype = 2   # tiempo de pared, igual que el TimeLimit de Gurobi
 
         t0 = perf_counter()
         if log_path is not None:

@@ -1,0 +1,74 @@
+{
+  "detalle": [
+    {
+      "solver": "Gurobi",
+      "tipo": "LP",
+      "instancia": "inst_A_capacidad",
+      "estado": "OPTIMAL",
+      "objetivo": 578.5223648998432,
+      "tiempo_mediana_ms": 23.43010902404785,
+      "tiempo_min_ms": 22.269010543823242,
+      "tiempo_max_ms": 25.150060653686523,
+      "iteraciones": 531,
+      "n_vars": 1834,
+      "n_restr": 1056
+    },
+    {
+      "solver": "CPLEX",
+      "tipo": "LP",
+      "instancia": "inst_A_capacidad",
+      "estado": "OPTIMAL",
+      "objetivo": 578.5223648998435,
+      "tiempo_mediana_ms": 9.29117202758789,
+      "tiempo_min_ms": 8.249044418334961,
+      "tiempo_max_ms": 11.018991470336914,
+      "iteraciones": 130,
+      "n_vars": 1834,
+      "n_restr": 1056
+    },
+    {
+      "solver": "Gurobi",
+      "tipo": "LP",
+      "instancia": "inst_C_clusters",
+      "estado": "OPTIMAL",
+      "objetivo": 225.29358139440018,
+      "tiempo_mediana_ms": 18.54109764099121,
+      "tiempo_min_ms": 18.306970596313477,
+      "tiempo_max_ms": 18.737077713012695,
+      "iteraciones": 442,
+      "n_vars": 1737,
+      "n_restr": 1008
+    },
+    {
+      "solver": "CPLEX",
+      "tipo": "LP",
+      "instancia": "inst_C_clusters",
+      "estado": "OPTIMAL",
+      "objetivo": 225.29358139440018,
+      "tiempo_mediana_ms": 7.7991485595703125,
+      "tiempo_min_ms": 7.419109344482422,
+      "tiempo_max_ms": 8.098840713500977,
+      "iteraciones": 107,
+      "n_vars": 1737,
+      "n_restr": 1008
+    }
+  ],
+  "comparacion": [
+    {
+      "instancia": "inst_A_capacidad",
+      "LP_obj_Gurobi": 578.5223648998432,
+      "LP_tiempo_ms_Gurobi": 23.43010902404785,
+      "LP_obj_CPLEX": 578.5223648998435,
+      "LP_tiempo_ms_CPLEX": 9.29117202758789,
+      "LP_dif_rel": 5.895373002976196e-16
+    },
+    {
+      "instancia": "inst_C_clusters",
+      "LP_obj_Gurobi": 225.29358139440018,
+      "LP_tiempo_ms_Gurobi": 18.54109764099121,
+      "LP_obj_CPLEX": 225.29358139440018,
+      "LP_tiempo_ms_CPLEX": 7.7991485595703125,
+      "LP_dif_rel": 0.0
+    }
+  ]
+}
